@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+/*
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+}
+*/
+.hotel-photo-profile-container{
+  height: 110px;
+  width: 430px;
+  position: relative;
+  display: flex;
+}
+.hotel-photo-profile-container .hotel-photo-profile-wrapper{
+  position: relative;
+  height: 100px;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px dashed #c2cdda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hotel-photo-profile-wrapper {
+  display: inline-flex;
+  margin-right: 0;
+  padding-right: 0;
+  width: 40%;
+}
+
+.hotel-photo-profile-wrapper.active{
+  border: none;
+}
+.hotel-photo-profile-wrapper .hotel-photo-profile-image{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hotel-photo-profile-wrapper img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.hotel-photo-profile-wrapper .hotel-photo-profile-icon{
+  font-size: 30px;
+  margin-left: 25px;
+  color: #fec107;
+}
+.hotel-photo-profile-wrapper .hotel-photo-profile-text{
+  font-size: 10px;
+  font-weight: 500;
+  color: #5B5B7B;
+}
+.hotel-photo-profile-wrapper #hotel-photo-profile-cancel-btn i{
+  position: absolute;
+  font-size: 20px;
+  right: 15px;
+  top: 15px;
+  color: #fec107;
+  cursor: pointer;
+  display: none;
+}
+.hotel-photo-profile-wrapper.active:hover #hotel-photo-profile-cancel-btn i{
+  display: block;
+}
+.hotel-photo-profile-wrapper #hotel-photo-profile-cancel-btn i:hover{
+  color: #293241;
+}
+.hotel-photo-profile-wrapper .hotel-photo-profile-file-name{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 0 8px;
+  font-size: 10px;
+  color: #fff;
+  display: none;
+  background: linear-gradient(135deg,#293241 0%,#fcaf58 100%);
+}
+
+.hotel-photo-profile-file-name{
+  width: 90%;
+}
+.hotel-photo-profile-wrapper.active:hover .hotel-photo-profile-file-name{
+  display: block;
+}
+
+.hotelier-photo-profile > input {
+  border-bottom: none !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px !important;
+}
+
+.hotelier-photo-profile h2 {
+  margin-bottom: 10px;
+}
+
+
+
+.hotelier-photo-profile .clickable-label {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  border: 0;
+  color: #fff;
+  background: #293241;
+  padding: 7px 15px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.hotel-photo-profile-container #hotel-photo-profile-custom-btn{
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 30%;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 0;
+  color: #fff;
+  background: #293241;
+  padding: 7px 15px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+  margin-top: 15px;
+}

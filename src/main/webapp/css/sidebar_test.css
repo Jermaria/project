@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+
+
+.sidebar{
+  width: 240px;
+  min-height: 600px;
+  height: 100%;
+  max-height: 900px;
+  background: rgb(41,50,65);
+  transition: all .5s ease;
+  display: inline-block;
+  position:absolute;
+}
+
+.sidebar header {
+  color: white;
+  font-size: 28px;
+  line-height: 70px;
+  text-align: center;
+  background: rgb(41,50,65);
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.sidebar_hidden {
+  margin-top: 20px;
+}
+
+.sidebar_hidden input {
+  margin-bottom: 15px;
+  margin-left: 42px;
+  margin-right: 10px;
+}
+
+.sidebar .active input {
+  margin-left: 30px;
+}
+
+ .sidebar .active p {
+   margin-bottom: 10px;
+ }
+
+.sidebar .meals input {
+  margin-left: 34px;
+}
+
+.sidebar .facilities input {
+  margin-left: 36px;
+}
+
+
+.sidebar a {
+  display: block;
+  color: white;
+  height: 65px;
+  width: 100%
+  line-height: 65px;
+  padding-left: 30px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgba(255,255,255, .1);
+  border-top: 1px solid black;
+  border-left: 5px solid transparent;
+  box-sizing: border-box;
+  transition: all .5s ease;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+.rating_slider .show-value {
+  position: relative;
+  width: 100%;
+  height: 55px;
+}
+
+.rating_slider .show-value span {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background: #fec107;
+  color #111;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+
+}
+
+#current-value {
+  color: white;
+}
+
+
+.rating_slider input[type="range"] {
+  -webkit-appearance:none;
+  margin-left: 10px;
+  width: 180px;
+  height: 2px;
+  background: #f5f5f5;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+}
+
+.rating_slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance:none;
+  width: 10px;
+  height: 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.rating_slider .range {
+  margin-top: 5px;
+  position: relative;
+}
+
+.rating_slider .range div {
+  position: absolute;
+  font-weight: 600;
+}
+
+.rating_slider .range div:nth-child(2) {
+  right: 7px;
+}
+
+
+
+ .sidebar a:hover, a.active {
+  border-left: 5px solid #fec107;
+  color: #fec107;
+}
+
+ .sidebar .active:hover {
+   padding-bottom: 230px;
+ }
+
+ .sidebar .meals:hover {
+   padding-bottom: 170px;
+ }
+
+ .sidebar .star:hover {
+   padding-bottom: 190px;
+
+ }
+
+ .sidebar .feedback:hover {
+   padding-bottom: 180px;
+ }
+
+.sidebar .facilities:hover {
+  padding-bottom: 130px;
+}
+
+.sidebar a i {
+  font-size: 23px;
+  margin-right: 16px;
+
+}
+
+.sidebar a span {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

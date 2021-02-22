@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.hotel-profile-main {
+  min-height: 670px;
+  width: 100%;
+  background: linear-gradient(to right, #293241, #fcaf58);
+  padding-top: -30px;
+  overflow-x: hidden;
+}
+
+.hotel-profile-container {
+  background: #fff;
+  width: 730px;
+  height: 540px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 5%;
+  box-shadow: 2px 5px 20px rgba(119, 119, 199, .5);
+}
+
+.hotel-profile-container .leftbox {
+  float: left;
+  top: -5%;
+  left: 5%;
+  position: absolute;
+  width: 11%;
+  height: 110%;
+  background-color: #293241;
+  box-shadow: 3px 3px 10px rgba(119,119,119,.5);
+  border: .1em solid #fff;
+}
+
+.hotel-profile-container .leftbox nav a {
+  list-style: none;
+  padding: 30px;
+  padding-left: 30px;
+  color: #fff;
+  font-size: 1.1em;
+  display: block;
+  transition: all .3s ease-in-out;
+}
+
+.hotel-profile-container .leftbox nav a:hover {
+  color: #fec107;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.hotel-profile-container .leftbox nav a:first-child {
+  margin-top: 7px;
+}
+
+.hotel-profile-container .leftbox nav a.active {
+  color: #fec107;
+}
+
+.hotel-profile-container .rightbox {
+  width: 60%;
+  margin-left: 27%;
+}
+
+.hotel-profile-container .rightbox .tab-show {
+  transition: all .5s ease-in;
+  width: 80%;
+}
+
+.hotel-profile-container .rightbox h1 {
+  font-size: 1.9rem;
+  padding-top: 20px;
+  margin-bottom: 35px;
+}
+
+.hotel-profile-container .rightbox h2 {
+  color: #777;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-left: 2px;
+  margin-top: 10px;
+}
+
+.hotel-profile-container .rightbox input {
+  border: none;
+  border-bottom: 1px solid #293241;
+  font-size: 1.6em;
+  padding: 7px 0;
+  color: #070707;
+  outline: none;
+}
+
+.hotel-profile-container .rightbox .hotel-profile input {
+  font-size: 1.4em;
+}
+
+
+.hotel-profile-container .rightbox .hotel-profile input[type="number"] {
+  margin-right: 40px;
+  font-size: 1.5em;
+}
+
+.hotel-profile-container .rightbox .rooms-profile label {
+  margin-right: 39px;
+}
+.hotel-profile-container .rightbox .rooms-profile input[type="text"] {
+  width: 110px;
+  margin-right: 20px;
+  font-size: 1.4em;
+}
+
+.hotel-profile-container .rightbox .rooms-profile input[type="number"] {
+  width: 100px;
+  font-size: 1.4em;
+}
+
+.hotel-profile-container .rightbox .rooms-profile #rooms_number,
+.hotel-profile-container .rightbox .rooms-profile #rooms_number2,
+.hotel-profile-container .rightbox .rooms-profile #rooms_number3 {
+  width: 70px;
+  margin-right: 30px;
+  font-size: 1.4em;
+}
+
+.hotel-profile-container .rightbox .meals-profile label{
+  margin-right: 110px;
+}
+
+.hotel-profile-container .rightbox .meals-profile input[type="text"] {
+    width: 180px;
+    margin-right: 7px;
+}
+.hotel-profile-container .rightbox .meals-profile input[type="number"] {
+    width: 100px;
+}
+
+.hotel-profile-container .rightbox .hotel-parking-profile label {
+  margin-right: 50px;
+}
+
+.hotel-profile-container .rightbox .hotel-parking-profile .parking_price {
+  width: 100px;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+.profile-submit-btn {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  border: 0;
+  color: #fff;
+  background: #293241;
+  padding: 7px 15px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.hotel-profile-container .rightbox .tab-show {
+  display: none;
+}

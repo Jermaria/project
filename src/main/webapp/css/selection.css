@@ -1,0 +1,145 @@
+.selection {
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  min-height: 600px;
+  padding-bottom: 10px;
+}
+
+.selection .search_bar {
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(41,50,65);
+}
+
+.booking_form_line {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+.pair {
+  display: inline-block;
+}
+
+.selection .search_bar .line_inputfield {
+  width: 130px;
+  border: none;
+  display: inline;
+  margin: 10px;
+  align-items: center;
+}
+
+.line_inputfield .input {
+  width: 30%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  color: #1C190D;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.line_inputfield .input:focus{
+  border: 1px solid rgb(41,50,65) !important;
+}
+
+.line_inputfield label {
+  width: 200px;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 5px;
+}
+
+.line_inputfield .datefield {
+  width: 135px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgba(0,0,0, 0.009);
+  border-radius: 5px;
+  color: #293241;
+}
+
+.line_inputfield .number {
+
+  width: 30px;
+  height: 30px;
+  background: none;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgba(0,0,0, 0.009);
+  border-radius: 5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.line_inputfield .btn{
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0px;
+  background:  #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.line_inputfield .btn:hover{
+  background: #ffd658;
+}
+
+
+@media (max-width: 1240px) {
+  .line_inputfield .input {
+    display: block;
+    width: 100%;
+    min-width: 305px;
+  }
+
+  .line_inputfield .btn {
+    width: 90px;
+
+
+}
+
+@media (max-width: 944px) {
+
+  .pair {
+    display: block;
+    padding-left: 40px;
+  }
+
+  .line_inputfield label {
+    padding-right: 20px;
+  }
+
+  .line_inputfield .number {
+    margin-right: 18px;
+  }
+
+  .line_inputfield .input {
+    min-width: 100px;
+  }
+
+  .line_inputfield .btn {
+    margin-left: auto;
+    margin-left: 40px;
+  }
+
+}

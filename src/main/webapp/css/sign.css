@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+.wrap-form {
+	max-width: 350px;
+	margin: auto;
+	padding: 20px;
+	background: #fff;
+	margin-top: 100px;
+	border-radius: 20px;
+}
+
+.wrap-form > h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+	text-align: center;
+  	color: #293241;
+}
+
+.sign {
+	margin-top: 50px;
+}
+
+ul#form-messages {
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 10px !important;
+    background-color: rgb(255, 232, 232);
+    border: 1px solid red;
+    color: red;
+    display: none; 
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-top:10px;
+    height: 35px;
+    max-width: 270px;
+}
+
+ul#form-messages li {
+	line-height: 10px;
+}
+
+.sign h5 {
+	padding-left: 70px;
+	color: #293241;
+}
+
+form.sign > input {
+
+	width: 90%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	outline: none;
+	border: 1px solid gray;
+	font-size: 15px;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #7285a7
+}
+
+#signup_email:placeholder-shown {
+	color: red !important;
+}
+
+
+form.sign > input[type=email]:focus,
+form.sign > input[type=text]:focus,
+form.sign > input[type=password]:focus {
+	width: 100%;
+	border: 3px solid #cc0033;
+	color: #293241;
+}
+
+form.sign > input[type=text]:valid:not(:placeholder-shown),
+form.sign > input[type=password]:valid:not(:placeholder-shown),
+form.sign > input[type=email]:valid:not(:placeholder-shown) {
+	border: 3px solid #218c74;
+}
+
+form.sign > input[type=text]:invalid:not(:placeholder-shown),
+form.sign > input[type=email]:invalid:not(:placeholder-shown),
+form.sign > input[type=password]:invalid:not(:placeholder-shown) {
+	border: 3px solid #cc0033;
+}
+
+form.sign #signup_email:not(:placeholder-shown) {
+	color: black;
+}
+
+#submitRegistration,
+#submitLogination {
+	font-size: 16px;
+	margin-top: 30px;
+	color: #fff;
+	font-weight: bold;
+	background: #293241;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+#submitRegistration:hover,
+#submitLogination:hover {
+	background: orange;
+}
+
+.sign_up_overlay,
+.sign_in_overlay {
+	height: 100%;
+	overflow:auto;
+	width: 100%;
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.sign_up_overlay label,
+.show-overlay label {
+	color: #293241;
+}
+
+.sign_up_overlay .inline,
+.show-overlay .inline {
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+.show-overlay {
+	height: 100%;
+	width: 100%;
+	display: block;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+.openbtn {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.closebtn {
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.closebtn:hover {
+	color: #ccc;
+}
+
+.exitbtn {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	padding-right: 30px;
+}

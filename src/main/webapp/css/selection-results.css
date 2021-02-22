@@ -1,0 +1,189 @@
+.results_list {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 250px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.result-header {
+    width: 100%;
+    border-bottom: 4px solid rgb(41,50,65);
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.result-header h5 {
+    margin-left: 5%;
+    display: inline-block;
+    color: rgb(41,50,65);
+}
+
+.hotel-title {
+  width: 50%;
+}
+
+.price {
+  width: 15%;
+}
+
+.inline-bl {
+  display: inline-block;
+}
+
+.options {
+  width: 55%;
+  margin-right: 5%;
+  margin-top: 10px;
+
+}
+
+.options img {
+  margin: 10px;
+  margin-top: 0;
+  width: 50%;
+  float: left;
+
+}
+
+.item_title {
+  padding: 10px;
+  color: rgb(41,50,65);
+  font-weight: bold;
+}
+
+.options p {
+  padding: 10px;
+  font-size: 15px;
+  padding-bottom: 0;
+  color: rgb(41,50,65);
+}
+
+.options .extra {
+  color: rgb(41,50,65);
+}
+
+.item_price {
+  width: 15%;
+  margin-right: 5%;
+  color: rgb(41,50,65);
+}
+
+.info_btn {
+  background-color: #fec107;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 14px 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.info_btn:hover {
+  background: #ffd658;
+}
+
+hr {
+  border-bottom: 4px solid rgb(41,50,65);;
+}
+
+@media (max-width: 860px) {
+  .info_btn {
+    padding: 14px 10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/*
+.results_list {
+
+  max-width: 850px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 60px;
+
+  background: orange;
+  border-radius: 20px;
+}
+
+.result-header {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.result-header h5 {
+    margin-left: 5%;
+}
+
+.item-line {
+  display:block;
+}
+
+.options {
+    background-color: green;
+    padding: 10px;
+    margin-left: -150px;
+    width: 45%;
+    max-width: 900px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: left;
+
+}
+
+.hotel-title {
+    width: 45%;
+
+}
+
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.item_title {
+	padding-left: 20px;
+}
+.item_price {
+	padding-left: 45px;
+}
+
+.result-header .price,
+.result-header .quantity,
+.result-header .total  {
+    border: none;
+
+}
+
+.info {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.results_list .pic {
+    width: 60%;
+	margin-left:30px;
+
+}
